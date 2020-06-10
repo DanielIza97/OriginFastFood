@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="35dp"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="HAMBURGUESA" />
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="SANDUCHES"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="QUESADILLAS"/>
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="BANDEJAS"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="JUGOS"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:textColor="@color/colorLightBlue"
+            android:text="ENSALADAS"/>
+
+    </TableRow>
+</TableLayout>
