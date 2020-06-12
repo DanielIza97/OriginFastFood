@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:textColor="@color/colorWhite"
-            android:background="@drawable/btn_redondeado_azul"
+            android:background="@drawable/btn_redondeado_azul_light"
             android:text="Continuar como" />
 
 

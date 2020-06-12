@@ -27,9 +27,8 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginBottom="60dp"
-            android:background="@drawable/image_circulo"
-            android:padding="26dp"
-            android:src="@mipmap/logo_4"></ImageView>
+            android:padding="0dp"
+            android:src="@mipmap/mgfood2"></ImageView>
 
         <EditText
             android:id="@+id/txtcorreo"
@@ -81,7 +80,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/btn_redondeado_azul"
+            android:background="@drawable/btn_redondeado_azul_light"
             android:elevation="5dp"
             android:onClick="StartShopping"
             android:text="Iniciar Sesión"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Crazy Food</string>
+    <string name="app_name">MG Food</string>
     <string name="crazy_food_recibira">Tu nombre, foto del perfil y dirección de correo electrónico</string>
     <string name="llevamos_tus_compras">Llevamos tus comidas favoritas a la puerta de tu casa</string>
     <string name="title_activity_main_menu_shoopers">MainMenuShoopers</string>
