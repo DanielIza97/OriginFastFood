@@ -80,7 +80,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/btn_redondeado_azul_light"
+            android:background="@drawable/btn_redondeado_white"
             android:elevation="5dp"
             android:onClick="StartShopping"
             android:text="Iniciar Sesión"

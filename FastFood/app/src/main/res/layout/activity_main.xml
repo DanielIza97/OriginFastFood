@@ -6,17 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@mipmap/fondo_azul2"></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#d8000000"
+        android:background="@color/colorBlack"
         android:gravity="center">
 
         <ImageView
@@ -37,6 +32,7 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/btn_redondeado_white"
             android:onClick="LoginActivity"
+            android:textColor="@color/colorBlack"
             android:text="Iniciar Sesión"
             android:textSize="16dp"></Button>
 
@@ -47,10 +43,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/btn_redondeado_azul_light"
+            android:background="@drawable/btn_redondeado_white"
             android:elevation="5dp"
             android:onClick="Menuopciones"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/colorBlack"
             android:text="Iniciar Sesión Facebook"
             android:textSize="16dp"></Button>
 
