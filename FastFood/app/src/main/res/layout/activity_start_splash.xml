@@ -9,13 +9,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorBlack"
+        android:background="@color/colorWhite"
         android:gravity="center">
 
         <ImageView
             android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:src="@mipmap/mgfood2"></ImageView>
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/image_circulo"
+            android:padding="26dp"
+            android:src="@mipmap/mgfood1"></ImageView>
 
     </LinearLayout>
 

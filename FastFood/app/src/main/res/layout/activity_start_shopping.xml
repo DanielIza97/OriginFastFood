@@ -20,7 +20,7 @@
             android:layout_width="125dp"
             android:layout_height="125dp"
             android:layout_marginBottom="40px"
-            android:src="@mipmap/logo_4" />
+            android:src="@mipmap/mgfood1" />
 
         <TextView
             android:layout_width="800px"
@@ -61,6 +61,7 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp">
             <Spinner
+                android:id="@+id/spinner2"
                 android:layout_width="275dp"
                 android:layout_height="50dp"
                 android:background="@drawable/spinner_item"
@@ -78,6 +79,7 @@
             android:layout_height="50dp"
             android:layout_marginBottom="20dp">
             <Spinner
+                android:id="@+id/spinner3"
                 android:layout_width="275dp"
                 android:layout_height="50dp"
                 android:background="@drawable/spinner_item"
@@ -94,9 +96,9 @@
 
         <Button
             android:layout_width="200dp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:layout_marginBottom="30dp"
-            android:background="@drawable/btn_redondeado_azul_light"
+            android:background="@drawable/btn_redondeado_negro"
             android:onClick="MainMenushopping"
             android:text="EMPEZAR A COMPRAR"
             android:textColor="@color/colorWhite"
